@@ -37,3 +37,10 @@ select {
   font-weight: bold;
   font-style: italic;
 }
+
+.api-info {
+  margin: 0;
+  display: flex;
+  margin-top: 100px;
+  font-size: small;
+}
