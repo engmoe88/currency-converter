@@ -69,6 +69,7 @@ function App() {
       amount={toAmount}
       onChangeAmount={handleToAmountChange} />
       <DateComponent date={date} />
+      <span className="api-info">Exchange rate and data in this app is provided by exchangeratesapi.io</span>
     </>
   );
 }
