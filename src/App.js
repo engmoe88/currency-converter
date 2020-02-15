@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Currencies from './components/Currencies';
 import DateComponent from './components/DateComponent';
+import ApiInfo from './components/ApiInfo';
 
 function App() {
   const [currencyOptions, setCurrencyOptions] = useState([""])
@@ -69,7 +70,7 @@ function App() {
       amount={toAmount}
       onChangeAmount={handleToAmountChange} />
       <DateComponent date={date} />
-      <span className="api-info">Exchange rate and data in this app is provided by exchangeratesapi.io</span>
+      <ApiInfo />
     </>
   );
 }
